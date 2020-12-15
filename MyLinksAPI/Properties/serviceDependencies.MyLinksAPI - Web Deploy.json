@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/MyLinksAPI/apis/MyLinks",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/dpconfigpoc/databases/DealerPortalConfigurationPOC",
+      "type": "mssql.azure",
+      "connectionId": "MyLinkDataContext_ConnectionString",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
